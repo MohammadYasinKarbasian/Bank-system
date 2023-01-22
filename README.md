@@ -33,15 +33,17 @@ pip install psycopg2
 pip install anytree
 ```
 ## How to use
-First, you should set TRANSACTION = "Transaction ID" in line 7 of `Transaction_tree.py`. if you want to see the output transaction tree you should run `Transaction_tree.py`. it will create the sender transaction tree and save it as `sender.png` and create the receiver transaction tree and save it as `receiver.png`. then the program merges these images and makes `result.png` and automatically opens `result.png` as you see:
+First, you should install PostgreSQL, then create your database and run `bank.sql` to create tables and views.then you should set TRANSACTION = "Transaction ID" in line 7 of `Transaction_tree.py`. if you want to see the output transaction tree you should run `Transaction_tree.py`. it will create the sender transaction tree and save it as `sender.png` and create the receiver transaction tree and save it as `receiver.png`. then the program merges these images and makes `result.png` and automatically opens `result.png` as you see:
+<br>
+
 `result.png`:
 <br>
 <img src="./result.png" width="800">
 
 `sender.png`:
 <br>
-
 <img src="./sender.png" width="800">
+
 `receiver.png`: 
 <br>
 <img src="./receiver.png" width="800">
