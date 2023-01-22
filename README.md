@@ -48,4 +48,6 @@ First, you should install PostgreSQL, then create your database and run `bank.sq
 <br>
 <img src="./receiver.png" width="800">
 
-also if you want to see the output table of the database for this tree in the terminal, you can run `Table_view.py` and see the table.
+also if you want to see the output table of the database for this tree in the terminal, you can run `Table_view.py` and see the table:
+<br>
+<img src="./img/Table_view.png" width="800">
